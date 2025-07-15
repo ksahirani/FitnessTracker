@@ -69,7 +69,7 @@ export default function AddWorkoutModal({ show, handleClose, fetchWorkouts }) {
               min="1"
             />
           </Form.Group>
-          <Button variant="primary" type="submit" disabled={isLoading}>
+          <Button variant="danger" type="submit" disabled={isLoading}>
             {isLoading ? 'Adding...' : 'Add Workout'}
           </Button>
         </Form>

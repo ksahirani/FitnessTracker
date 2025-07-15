@@ -82,7 +82,7 @@ export default function EditWorkoutModal({ show, handleClose, workout, fetchWork
               min="1"
             />
           </Form.Group>
-          <Button variant="primary" type="submit" disabled={isLoading}>
+          <Button variant="danger" type="submit" disabled={isLoading}>
             {isLoading ? 'Updating...' : 'Update Workout'}
           </Button>
         </Form>

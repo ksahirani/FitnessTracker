@@ -84,7 +84,7 @@ export default function Login() {
                 required
               />
             </Form.Group>
-            <Button variant="primary" type="submit" disabled={isLoading}>
+            <Button variant="danger" type="submit" disabled={isLoading}>
               {isLoading ? 'Logging in...' : 'Login'}
             </Button>
           </Form>

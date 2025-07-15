@@ -77,7 +77,7 @@ export default function Workouts() {
         <h2>My Workouts</h2>
         <Button 
           id="addWorkout" 
-          variant="primary" 
+          variant="success" 
           onClick={() => setShowAddModal(true)}
         >
           Add Workout

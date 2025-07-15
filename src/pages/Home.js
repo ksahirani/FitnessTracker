@@ -13,15 +13,15 @@ export default function Home() {
         Track your workouts and monitor your progress over time
       </p>
       {user.id ? (
-        <Button as={Link} to="/workouts" variant="primary" size="lg">
+        <Button as={Link} to="/workouts" variant="success" size="lg">
           View Your Workouts
         </Button>
       ) : (
         <div>
-          <Button as={Link} to="/login" variant="primary" size="lg" className="me-3">
+          <Button as={Link} to="/login" variant="danger" size="lg" className="me-3">
             Login
           </Button>
-          <Button as={Link} to="/register" variant="secondary" size="lg">
+          <Button as={Link} to="/register" variant="danger" size="lg">
             Register
           </Button>
         </div>
