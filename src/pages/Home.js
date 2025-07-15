@@ -21,7 +21,7 @@ export default function Home() {
           <Button as={Link} to="/login" variant="danger" size="lg" className="me-3">
             Login
           </Button>
-          <Button as={Link} to="/register" variant="danger" size="lg">
+          <Button as={Link} to="/register" variant="success" size="lg">
             Register
           </Button>
         </div>
