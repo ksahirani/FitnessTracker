@@ -68,7 +68,7 @@ export default function Register() {
                 minLength="8"
               />
             </Form.Group>
-            <Button variant="danger" type="submit" disabled={isLoading}>
+            <Button variant="success" type="submit" disabled={isLoading}>
               {isLoading ? 'Registering...' : 'Register'}
             </Button>
           </Form>
